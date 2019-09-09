@@ -42,7 +42,7 @@
           <li><a href="news.html">News</a></li>
           <li><a href="events.html">Events</a></li>
           <li><a href="contact.html">Contact Us</a></li>
-          <li class="active"><a href="form.html">Feedback</a></li>
+          <li><a href="form.html">Feedback</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <li><button type="button" class="btn btn-primary">Blog<span class="badge">2</span></li>
@@ -53,65 +53,12 @@
     </div>
   </nav>
 
-<body>
-  <h1><center>Feedback Form</center></h1>
-  <p></p>
-  <h2>Fill in and submit the form below:</h2>
-  <form class="form-horizontal" action="submit.php">
-    <label class="control-label col-sm-2" for="email">/label>
-      <div class="col-sm-10">
-        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
-      </div>
-      <div class="col-md-6 mb-3">
-        <label for="validation02">Last name</label>
-        <input type="text" class="form-control" id="validation02" placeholder="Last name" value="Last name" required>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-6 mb-3">
-        <label for="validation03">Email Address</label>
-        <input type="text" class="form-control" id="validation03" placeholder="Email" required>
-        <div class="invalid-feedback">
-          This field is required.
-        </div>
-      </div>
-    </div><br>
-    <div class="form-group">
-  <label for="comment">Comments:</label>
-  <textarea class="form-control" rows="5" id="comment"></textarea>
-
-  <br><p>What course(s) did you enjoy the most?</p>
-  <div class="checkbox">
-    <label><input type="checkbox" value="">Web Development</label>
-  </div>
-  <div class="checkbox">
-    <label><input type="checkbox" value="">Web Analytics</label>
-  </div>
-  <div class="checkbox disabled">
-    <label><input type="checkbox" value="" disabled>Business Management</label>
-  </div>
-
-  <p>How do you rate your overall experience?</p>
-  <div class="radio">
-    <label><input type="radio" name="optradio">Excellent</label>
-  </div>
-  <div class="radio">
-    <label><input type="radio" name="optradio">Poor</label>
-  </div>
+  <body>
+<h1><center>Thanks for your feedback!</center></h1>
 
 
-  <p>Select which one applies:</p>
-  <div class="form-group">
-    <label for="select1">Campus Selection:</label>
-    <select class="form-control" id="select1">
-      <option>Online</option>
-      <option>On Campus</option>
-      <option>Flex Choice</option>
-    </select>
-  </div>
-</div>
-    <button class="btn btn-primary" type="submit">Submit form</button>
-  </form>
-</body>
+
+
+  </body>
 
 </html>
